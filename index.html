@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Website-Thamsanqa Ndaba</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Thamsanqa Ndaba's Portfolio Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi, it's me Thamsanqa</h2>
+                <p class="hero_desc">I am a promising Java Developer in JHB, South Africa</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="images/about.jpg" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <p> Thamsanqa Ndaba has been a briliant individual in life. He is currently a promising
+                    java developer and is based in JHB, Gauteng, South Africe. He has a love for the fine
+                    details in life and this led to him persuing a career in sotware development. Thamsanqa
+                    has a liking for a few things
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Gaming</li>
+                            <li>Technology</li>
+                            <li>Science</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Creative-writing</li>
+                            <li>Music</li>
+                            <li>Cooking</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p> These few things have an inpact in his life and have to him gaining a good understnding of life
+                        and career. Like wen looking at cooking, no one is born a great cook but can become a great cook
+                        with practice and consistency. this experience helps Thamsanqa be a more persistent coder and he
+                        looks at is failures more as stepping stones to learn from than the end of the road. It makes
+                        him a confindent
+                        person who is not afraid to ask for help and admit his mistakes. This helps him be able to
+                        co-ordinate with
+                        team members and build towards the best possible results on projects with an assured delivery
+                        time. As you go throughg
+                        the page, you will get an insight on the deloping coder's progress in the industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3">It is the process of creating, building, and maintaining
+                            websites and web applications. As a developer, I ensure that the
+                            websites are responsive, user-friendly, and optimized for search engines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Website Design</h4>
+                        <p class="card-text mt-3">It is the process of creating and designing websites. It involves
+                            planning and organizing the layout, structure, and content of a website to ensure a visually
+                            appealing
+                            and user-friendly experience. HTML, CSS & javascript are the langauges I used to design this
+                            website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Website Deployment</h4>
+                        <p class="card-text mt-3">It is the process of making a website available for public
+                            access on the internet. This allows users to access and interact with the website online
+                            through
+                            their web browsers. When required, I can test and optimize the website for performance and
+                            security.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-3">SEO</h4>
+                        <p class="card-text mt-3">SEO stands for Search Engine Optimization. It is the practice of
+                            improving a website's visibility in search engine results pages. The goal of SEO is to
+                            improve a website's visibility and relevance, ultimately driving more targeted traffic
+                            and potential customers to the site.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-3">DevOps</h4>
+                        <p class="card-text mt-3">DevOps is a software development approach that combines software
+                            development (Dev)
+                            and IT operations (Ops) to enhance collaboration and streamline the software delivery
+                            process.
+                            I do take large projects where I engage with teams to develop, test and optimise your
+                            required software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-wrench'></i>
+                        <h4 class="card-title mt-3">Q&A</h4>
+                        <p class="card-text mt-3">Got Questions? Need assisitance? I can help you. Find my contact
+                            details at the end of the webpage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/shoppingCart.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Shopping cart</h4>
+                            <p class="card-text">Project where I created a table that allows to to increase or decrease
+                                the quatity of
+                                items. then it calculates the total at checkout. </p>
+                            <div class="text-center">
+                                <a href="projects/ShoppingCart/ShoppingCart.html" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/numberGuessingGame.png" alt="Card image"
+                            style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Number Guessing Game</h4>
+                            <p class="card-text">Guess a number from 1-10, which is then compared to the number randomly
+                                selected.
+                                Gives user advise like in 'hot or cold'</p>
+                            <div class="text-center">
+                                <a href="projects/Guessinggame/GuessingGame.html" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/hangman.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Hangman</h4>
+                            <p class="card-text">Classic hangman game with limited chances played in the alert bar.</p>
+                            <div class="text-center">
+                                <a href="projects/Hangman/HangmanGame.html" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/alarm.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Alarm Clock</h4>
+                            <p class="card-text">Clock showing the current time allowing the user to set an alarm on a
+                                specific
+                                future date</p>
+                            <div class="text-center">
+                                <a href="projects/AlarmClock/index.html" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/weather.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Weather forecast</h4>
+                            <p class="card-text">Lemonade! Who does't love it? ther's no better way to save stock than
+                                being able to predict the weather!</p>
+                            <div class="text-center">
+                                <a href="projects/WeatherForecast/index.html" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/mars.jfif" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Space Trip</h4>
+                            <p class="card-text">Ever wondered how a freehearted trip to mars would be? Go no further
+                                and enjoy our interactive adventure.</p>
+                            <div class="text-center">
+                                <a href="projects/SpaceTrip/chap16.html" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Where to find me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+                <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+                    <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+                            style="height:100%;width:100%;border:0;" frameborder="0"
+                            src="https://www.google.com/maps/embed/v1/place?q=Gauteng,+South+Africa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div><a class="googl-ehtml" href="https://www.bootstrapskins.com/themes"
+                        id="enable-map-info">premium bootstrap themes</a>
+                    <style>
+                        #gmap-canvas img.text-marker {
+                            max-width: none !important;
+                            background: none !important;
+                        }
+
+                        img {
+                            max-width: none
+                        }
+                    </style>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <p>Gauteng is where I am currently buiding my coding experience and it is my HQ of operation. You can
+                    meet up wit me here. Don't be afraid to visit, I'll be in JHB for the meanwhile.</p>
+                <p>I hope you do contact me and be a special part of my journey to success. My details will be available on the icons at
+                    the bottom of the page.</p>
+                <p>Thanks for visiting my page!! </p>
+    </section>
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <p>Contact me:</p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ndabat020@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            <a href="https://wa.me/+2765919155" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:+27659191455" target="_blank"><i class="fa-phone"></i></a>
+            <a href="https://github.com/THAM-SANQA" target="_blank"><i class="fab fa-github"></i></a>
+            <!-- <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>-->
+        </div>
+        <p class=" mt-3">Delivered by @Thamsanqa Ndaba</p>
+    </footer>
+
+
+    <!-- load javascript after loading all html content -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
